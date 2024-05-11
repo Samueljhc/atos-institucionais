@@ -28,6 +28,7 @@
 html, body {
     width: 100vw;
     height: 100vh;
+    background-color: #b1afaf;
 }
 
 header {
@@ -65,6 +66,8 @@ nav > a {
     padding: 7px;
     margin: 5px;
     font-family: var(--fonte1);
+    width: 60px;
+    text-align: center;
 }
 
 nav > a:hover {
@@ -75,4 +78,45 @@ nav > a:hover {
 
 a {
     text-decoration: none;
+}
+
+main {
+    margin: 20px auto;
+    background-color: var(--cor02);
+    max-width: 800px;
+    min-width: 300px;
+    border-radius: 20px;
+}
+
+h2 {
+    font-family: var(--fonte1);
+    color: var(--cor04);
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: var(--cor02);
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+footer > a {
+    color: black;
+}
+
+footer > a:hover {
+    color: var(--cor04);
+    transition-duration: 0.3s;
 }
