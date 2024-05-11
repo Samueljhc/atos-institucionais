@@ -42,7 +42,7 @@ header {
 header h1 {
     color: var(--cor04);
 
-    flex: 0 0 300px;
+    flex: 0 0 400px;
 }
 
 header p {
