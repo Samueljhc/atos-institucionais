@@ -46,7 +46,9 @@ header h1 {
 }
 
 header p {
-    border: 1px solid black;
+    flex: 0 0 200px;
+    display: none;
+    text-align: center;
 }
 
 nav {
