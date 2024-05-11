@@ -6,6 +6,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: var(--fonte2);
 }
 
 :root {
@@ -41,14 +42,16 @@ header {
 
 header h1 {
     color: var(--cor04);
+    font-family: var(--fonte1);
 
     flex: 0 0 400px;
 }
 
 header p {
-    flex: 0 0 200px;
     display: none;
+    flex: 0 0 400px;
     text-align: center;
+    color: var(--cor04);
 }
 
 nav {
@@ -61,6 +64,7 @@ nav > a {
     border-radius: 10px;
     padding: 7px;
     margin: 5px;
+    font-family: var(--fonte1);
 }
 
 nav > a:hover {
