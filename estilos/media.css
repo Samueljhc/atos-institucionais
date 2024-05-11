@@ -23,7 +23,7 @@
     }
 
     header > p {
-        display: block;
+        display: none;
         flex: 0 0 400px;
         text-align: center;
         color: var(--cor04);
