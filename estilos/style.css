@@ -81,7 +81,7 @@ a {
 }
 
 main {
-    margin: 20px auto;
+    margin: 20px auto 20px auto; 
     background-color: var(--cor02);
     max-width: 800px;
     min-width: 300px;
@@ -98,6 +98,15 @@ p {
     padding: 10px;
 }
 
+a.externo {
+    color: var(--cor04);
+    font-weight: bold;
+}
+
+a.externo::after {
+    content: '\00A0\1F517';
+}
+
 img {
     display: block;
     margin: auto;
@@ -106,10 +115,9 @@ img {
 }
 
 footer {
-    background-color: var(--cor02);
     text-align: center;
-    padding: 10px;
-    font-size: 1.2em;
+    padding: 1px;
+    font-size: 1em;
 }
 
 footer > a {
