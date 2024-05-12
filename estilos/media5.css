@@ -30,4 +30,8 @@
         font-family: var(--fonte2);
     }
 
+    div {
+        width: 450px;
+    }
+
 }
